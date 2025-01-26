@@ -1,0 +1,25 @@
+.mainCirlce {
+    margin: 50px auto;
+    height: 50vw;
+    width: 50vw;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+}
+.outterCircle, .innerCircle {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.outterCircle {
+    background-color: #75BF3A;
+}
+.innerCircle {
+    background-color: #FFD428;
+    height: 70%;
+    width: 70%;
+}
