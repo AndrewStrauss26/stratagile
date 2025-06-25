@@ -1,13 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import TimerPage from "./Pages/Timer/TimerPage";
-import Circle from "./Pages/circles/Circles";
+import QuizQuestion from "./Pages/QuizQuestion/QuizQuestion";
+import NewTest from "./Pages/NewTest/NewTest";
 
 const Main = () => {
     return (
         <Routes>
-            <Route path="/" element={<Circle />} />
-            <Route path="/timer" element={<TimerPage />} />
+            <Route path="/" element={<QuizQuestion />} />
+            <Route path="/test" element={<NewTest />} />
         </Routes>
     )
 }
